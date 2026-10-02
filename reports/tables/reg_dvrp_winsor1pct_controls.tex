@@ -1,0 +1,31 @@
+\begin{table}
+\caption{Robustness: Meeting-level regressions using $\Delta VRP$ winsorized at the 1\% tails (daily cutoffs).}
+\label{tab:meet_dvrp_winsor}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+               & ΔVRP(w)~Surp+Ctrls & ΔVRP(w)~Surp+Tone+Ctrls & ΔVRP(w)~Surp+Unc+Ctrls  \\
+\hline
+const          & 0.0019             & 0.0027                  & 0.0001                  \\
+               & (0.0017)           & (0.0022)                & (0.0027)                \\
+surprise\_pc1  & 0.0004             & 0.0004                  & 0.0004                  \\
+               & (0.0008)           & (0.0008)                & (0.0008)                \\
+iv\_lag1       & -0.0554            & -0.0570                 & -0.0466                 \\
+               & (0.0699)           & (0.0702)                & (0.0694)                \\
+rv\_back\_22   & -0.0429            & -0.0487                 & -0.0465                 \\
+               & (0.0438)           & (0.0471)                & (0.0440)                \\
+tone\_net      &                    & -0.1244                 &                         \\
+               &                    & (0.1373)                &                         \\
+unc\_share     &                    &                         & 0.1227                  \\
+               &                    &                         & (0.2065)                \\
+R-squared      & 0.0677             & 0.0747                  & 0.0747                  \\
+R-squared Adj. & 0.0299             & 0.0240                  & 0.0240                  \\
+N              & 78                 & 78                      & 78                      \\
+R2             & 0.068              & 0.075                   & 0.075                   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\bigskip
+Standard errors in parentheses. \newline 
+* p<.1, ** p<.05, ***p<.01

@@ -1,0 +1,17 @@
+# Data (never commit)
+data/
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets/config
+.env
+
+# OS junk
+Thumbs.db
+.DS_Store

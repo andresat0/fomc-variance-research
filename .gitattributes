@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve every historical artifact byte-for-byte, including its line endings.
+/notebooks/** -text
+/reports/** -text
+/paper/** -text
+/archive/** -text
+/environment.yml -text
+/.gitignore -text

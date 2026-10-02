@@ -1,0 +1,168 @@
+{
+  "packaged_on": "2026-10-02",
+  "release_type": "unchanged historical archive with new documentation",
+  "computation_source": "Thesis/Copy of thesis-vrp-fomc/thesis-vrp-fomc",
+  "selection_reason": "Saved summary count of 2492 agrees with the submitted narrative; this is not proof of an exact reproducible match.",
+  "execution_status": "No archived notebook executed; no outputs regenerated; no research corrections applied.",
+  "excluded": [
+    "Full thesis PDF; linked to Penn State University Libraries instead",
+    "Raw and processed input datasets",
+    "Model weights",
+    "Duplicate notebook report copies",
+    "Git history and editor state",
+    "Drafts, feedback, correspondence, and reference article PDFs"
+  ],
+  "unchanged_files": [
+    {
+      "path": "notebooks/00_smoke_test.ipynb",
+      "bytes": 1094,
+      "sha256": "837088647beb22ad828845dbb014638e70070e2325f28a8e324253048e273666",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "notebooks/01_build_vix_vrp.ipynb",
+      "bytes": 146976,
+      "sha256": "4a4e3337caf7e36db61a39b53804ce6dcf8d9407f1e1e40c80a86f228f83e4e3",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "notebooks/02_fomc_event_study.ipynb",
+      "bytes": 85201,
+      "sha256": "ad2cc473ec29b2e776537951fbde696767dae9baaa8c4f969c899a3ed2b3c32b",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "notebooks/03_statement_tone_and_regressions.ipynb",
+      "bytes": 104678,
+      "sha256": "e47373642fedaef22e0686b3d7ef9d8f2f7d2344cdd1a20674d8e147feb50629",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "notebooks/04_decompose_vrp_channels.ipynb",
+      "bytes": 125526,
+      "sha256": "67bada8c44d5d067814c707e8fb88fd8c26b378efa0af243fddf950cbcd8af25",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "notebooks/05_finbert_tone.ipynb",
+      "bytes": 48748,
+      "sha256": "9ad3224e1c71b7ddd77f0d9c7ac6324154cc2b18b321ea37db39ecf54eec58bb",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/figures/fomc_event_iv_tminus5_tplus5.png",
+      "bytes": 101628,
+      "sha256": "e38f127f2ca19fae007fe04faa596718dadc76f35e962f2a6dba7da3c85f366b",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/figures/fomc_event_rv_fwd_tminus5_tplus5.png",
+      "bytes": 86446,
+      "sha256": "deb136165359b544b572d3f701bcf750ae8ada30cdf4dceba9768ddac4c9b064",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/figures/fomc_event_vrp_tminus5_tplus5.png",
+      "bytes": 96096,
+      "sha256": "3cbf1ed9437f612eecd43d0b7c68e0350a93888b83343dcfcd373358718a08b1",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/figures/iv_vs_rv_last500.png",
+      "bytes": 130006,
+      "sha256": "2d81cc71c3da70688f9d63d8924afeee526551b9e76cbcb24e4a8da84d0dca3d",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/figures/vrp_last500.png",
+      "bytes": 104711,
+      "sha256": "860adfeb3265dfa65392c675ae2ba6a7795050eb59c31d81998b8cc053620629",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/finbert_influence_robustness.tex",
+      "bytes": 357,
+      "sha256": "dce87d6ba1db86933302e2b04c2c6fea5a6129ecae538e8e93678c504f6cac17",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_dvrp_surprise_tone_controls.tex",
+      "bytes": 1957,
+      "sha256": "9beb75cae781ded11b078ba4389ac4620542846494864de7e888beba87bbff21",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_dvrp_winsor1pct_controls.tex",
+      "bytes": 1909,
+      "sha256": "0a89ac0d5f2eabfdc893f40ec4b54ef7a8facd12e87f3a5b862779188bb49b70",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_iv_surprise_tone_controls.tex",
+      "bytes": 1631,
+      "sha256": "80f307da9940c35f82c08caaf76a426091805fd390e0ceecc7ca3c075de17adc",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_rv_fwd_surprise_tone_controls.tex",
+      "bytes": 1786,
+      "sha256": "e12e082638758ba62d761160a2a26dc8c21e67bf2c78fa68d0776a603c374bf3",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_vrp_finbert_controls.tex",
+      "bytes": 3029,
+      "sha256": "612bd79fa2d2526e046f02d4ed91f0af50672c1e64cebaebe83403e168124c3a",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_vrp_finbert_standardized.tex",
+      "bytes": 1029,
+      "sha256": "98a36a976d37ce20774e7dbccc9e31c6d62095429dd3daa1f6eba2f2818f7b68",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_vrp_surprise_tone.tex",
+      "bytes": 1183,
+      "sha256": "96b6955c0c3066ac206b9994b6959da828cb24195660821fbcce0bbc79374c93",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_vrp_surprise_tone_controls.tex",
+      "bytes": 1921,
+      "sha256": "3fa3dc8bee35000b7321a7ca21ed0ea7d92a1fb643c7b68515f6be0ac61c7b68",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/reg_vrp_winsor1pct_controls.tex",
+      "bytes": 1845,
+      "sha256": "e51fc73e81dcc0dcbe9b818f6f591f5654c864a36fd9b296b7b233dc80976172",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "reports/tables/vrp_summary_stats.csv",
+      "bytes": 618,
+      "sha256": "240f6dbef3a442b07e02b070b71709ef292a1f907d857a7274f1617db9392267",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 578,
+      "sha256": "ca81ba6da95b3c0d491644f91de420cae9132aa410264ba0b7a485921cffadab",
+      "source": "historical computation copy"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 180,
+      "sha256": "79d9593952f6a48843471a3eeaca55a4516a6f0a2c95694a6d68b4cc5c89040b",
+      "source": "historical computation copy"
+    },
+    {
+      "path": "archive/README.original.md",
+      "bytes": 773,
+      "sha256": "fb1d7ed553aea81a42c064646bc5cc26620e94b62ff54cecadd19e3ef15e665f",
+      "source": "historical computation copy"
+    }
+  ],
+  "thesis_url": "https://honors.libraries.psu.edu/catalog/10189ava6461"
+}

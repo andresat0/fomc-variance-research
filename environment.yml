@@ -1,0 +1,31 @@
+name: thesis-vrp
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.10
+  - numpy
+  - pyyaml
+  - tqdm
+  - scikit-learn
+  - scipy
+  - ipykernel
+  - openpyxl
+  - pandas
+  - jupyterlab
+  - statsmodels
+  - pyarrow
+  - matplotlib
+  - pandas-datareader
+  - anaconda_prompt
+  - notebook
+  - requests
+  - lxml
+  - beautifulsoup4
+  - protobuf
+  - tokenizers
+  - sentencepiece
+  - ipywidgets
+prefix: C:\Users\Andre\anaconda3\envs\thesis-vrp

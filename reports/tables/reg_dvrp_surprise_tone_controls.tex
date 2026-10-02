@@ -1,0 +1,31 @@
+\begin{table}
+\caption{Robustness: meeting-level regressions using $\Delta VRP$ on meeting days with the same controls.}
+\label{tab:meet_dvrp_controls}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+               & ΔVRP~Surprise+Ctrls & ΔVRP~Surprise+Tone+Ctrls & ΔVRP~Surprise+Unc+Ctrls  \\
+\hline
+const          & 0.0020              & 0.0035                   & -0.0001                  \\
+               & (0.0021)            & (0.0026)                 & (0.0030)                 \\
+surprise\_pc1  & 0.0005              & 0.0006                   & 0.0005                   \\
+               & (0.0010)            & (0.0010)                 & (0.0010)                 \\
+iv\_lag1       & -0.0198             & -0.0225                  & -0.0095                  \\
+               & (0.1039)            & (0.1030)                 & (0.1005)                 \\
+rv\_back\_22   & -0.0715             & -0.0814                  & -0.0757                  \\
+               & (0.0705)            & (0.0774)                 & (0.0697)                 \\
+tone\_net      &                     & -0.2137                  &                          \\
+               &                     & (0.2004)                 &                          \\
+unc\_share     &                     &                          & 0.1445                   \\
+               &                     &                          & (0.2565)                 \\
+R-squared      & 0.0419              & 0.0523                   & 0.0469                   \\
+R-squared Adj. & 0.0031              & 0.0004                   & -0.0054                  \\
+N              & 78                  & 78                       & 78                       \\
+R2             & 0.042               & 0.052                    & 0.047                    \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\bigskip
+Standard errors in parentheses. \newline 
+* p<.1, ** p<.05, ***p<.01
